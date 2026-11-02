@@ -1,4 +1,6 @@
-// AlashWeb: страница не открывается? Скетч покажет адрес панели, число элементов и подскажет, что проверить.
+// [ru] AlashWeb: страница не открывается? Скетч покажет адрес панели, число элементов и подскажет, что проверить.
+// [kk] AlashWeb: бет ашылмай ма? Скетч тақтаның мекенжайын, элементтер санын көрсетеді және нені тексеру керегін айтады.
+// [en] AlashWeb: the page does not open? The sketch shows the panel address, the number of elements and tells what to check.
 #include <AlashWeb.h>
 
 const char *WIFI_NAME = "ИМЯ_СЕТИ";

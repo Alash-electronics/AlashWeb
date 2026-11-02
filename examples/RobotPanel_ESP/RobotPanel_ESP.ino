@@ -1,6 +1,12 @@
-// AlashWeb: пульт для робота в браузере. Кнопки направлений и ползунок скорости. Здесь команды только печатаются,
-// а в своём проекте вызывайте управление моторами (например, библиотека AlashCar: car.forward(speed)).
-// Пароль защищает панель в домашней сети (передаётся без шифрования, это не защита от взлома).
+// [ru] AlashWeb: пульт для робота в браузере. Кнопки направлений и ползунок скорости. Здесь команды только печатаются,
+//      а в своём проекте вызывайте управление моторами (например, библиотека AlashCar: car.forward(speed)).
+//      Пароль защищает панель в домашней сети (передаётся без шифрования, это не защита от взлома).
+// [kk] AlashWeb: браузердегі робот пульті. Бағыт батырмалары және жылдамдық жүгірткісі. Мұнда командалар тек басылады,
+//      ал өз жобаңызда моторларды басқаруды шақырыңыз (мысалы, AlashCar кітапханасы: car.forward(speed)).
+//      Құпиясөз үй желісіндегі тақтаны қорғайды (шифрсыз жіберіледі, бұл бұзудан қорғау емес).
+// [en] AlashWeb: a robot remote in a browser. Direction buttons and a speed slider. Here the commands are only printed,
+//      and in your project call the motor control (for example the AlashCar library: car.forward(speed)).
+//      The password protects the panel on a home network (it is sent unencrypted, this is not protection from hacking).
 #include <AlashWeb.h>
 
 const char *WIFI_NAME = "ИМЯ_СЕТИ";

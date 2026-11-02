@@ -1,5 +1,9 @@
-// AlashWeb: панель приборов. Температура с графиком за последнюю минуту, строка статуса, ползунок яркости и кнопка.
-// Датчик температуры здесь имитирован: подставьте настоящий (AlashAHT, AlashDS18B20, AlashBME280).
+// [ru] AlashWeb: панель приборов. Температура с графиком за последнюю минуту, строка статуса, ползунок яркости и кнопка.
+//      Датчик температуры здесь имитирован: подставьте настоящий (AlashAHT, AlashDS18B20, AlashBME280).
+// [kk] AlashWeb: аспаптар тақтасы. Соңғы минут графигі бар температура, күй жолы, жарықтық жүгірткісі және батырма.
+//      Мұндағы температура датчигі имитацияланған: нағыз датчикті қойыңыз (AlashAHT, AlashDS18B20, AlashBME280).
+// [en] AlashWeb: a dashboard. The temperature with a chart for the last minute, a status line, a brightness slider and a button.
+//      The temperature sensor here is simulated: put in a real one (AlashAHT, AlashDS18B20, AlashBME280).
 #include <AlashWeb.h>
 
 const char *WIFI_NAME = "ИМЯ_СЕТИ";
